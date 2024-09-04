@@ -153,7 +153,7 @@ class SafeRoutesForm extends StatelessWidget {
           title: Text('Form Submitted', style:
           GoogleFonts.outfit(fontSize: 16, fontWeight: FontWeight.w300),),
           content: Text(
-            'Suspicious location details have been submitted successfully. Thank you for helping Saheli make women stronger and safer!', style:
+            'Suspicious location details have been submitted successfully. Thank you for helping Saarthi make women stronger and safer!', style:
           GoogleFonts.outfit(fontSize: 16, fontWeight: FontWeight.w300),),
           actions: [
             TextButton(

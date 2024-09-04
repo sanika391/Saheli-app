@@ -232,7 +232,7 @@ class AudioPlayerState extends State<AudioPlayer> {
     if (await _isPermissionGranted()) {
       contactList.forEach((element) {
         _sendSms("${element.number}",
-            "I am in trouble! $messageBody This message is sent from Saheli App");
+            "I am in trouble! $messageBody This message is sent from Saarthi App");
       });
     } else {
       Fluttertoast.showToast(msg: "something wrong");

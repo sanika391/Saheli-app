@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:Saheli/views/addUserDetails.dart';
 import 'package:android_physical_buttons/android_physical_buttons.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:device_preview/device_preview.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -92,19 +91,20 @@ void main() async {
   // } catch(e) {
   //   print("error $e");
   // }
-  runApp(
-    DevicePreview(
-      enabled: !kReleaseMode,
-        //builder: (context) => MyApp(),
-        builder: (context) => MaterialApp(
-            useInheritedMediaQuery: true,
-            builder: DevicePreview.appBuilder,
-            locale: DevicePreview.locale(context),
-            debugShowCheckedModeBanner: false,
-            home: MyApp(),
-            routes: {'/CallerScreen': (context) =>  CallerScreen(), '/HomeScreen': (context) =>  HomePage()}
-        )
-    )
+   runApp(
+    MaterialApp(
+      useInheritedMediaQuery: true,
+      locale: Locale('en', 'US'), // Replace with the desired default locale
+      debugShowCheckedModeBanner: false,
+      builder: (context, child) {
+        return child!;
+      },
+      home: MyApp(),
+      routes: {
+        '/CallerScreen': (context) => CallerScreen(),
+        '/HomeScreen': (context) => HomePage(),
+      },
+    ),
   );
 }
 
@@ -219,6 +219,8 @@ class _MyAppState extends State<MyApp> {
 }
 
 class SplashScreen extends StatelessWidget {
+  const SplashScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Connect smart device to Saheli',
+                              'Connect smart device to Saarthi',
                               style: GoogleFonts.outfit(
                                 fontWeight: FontWeight.w500,
                                 color: Colors.white,
@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
                               height: 8,
                             ),
                             Text(
-                              'Connect your smart device with the app and unlock the real power of Saheli with built-in state-of-the-art artificial intelligence features!',
+                              'Connect your smart device with the app and unlock the real power of Saarthi with built-in state-of-the-art artificial intelligence features!',
                               style: GoogleFonts.outfit(
                                   fontSize: 14, color: Colors.white),
                             ),

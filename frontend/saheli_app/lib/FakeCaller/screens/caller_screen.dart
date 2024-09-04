@@ -116,7 +116,7 @@ class _SafeHomeState extends State<CallerScreen> {
               backgroundColor:Colors.grey,
               radius: 40,
               child: Text(
-                'Apoorv',
+                'Sanika',
                 style: GoogleFonts.lato(),
 
               ),
@@ -125,7 +125,7 @@ class _SafeHomeState extends State<CallerScreen> {
               height: 5.0,
             ), //CircleAvatar
             Text(
-             'Yash',
+             'Sanika',
               style: GoogleFonts.lato(),
               textAlign: TextAlign.center,
             ),

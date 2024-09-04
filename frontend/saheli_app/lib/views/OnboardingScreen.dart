@@ -18,7 +18,7 @@ class OnboardingScreen extends StatelessWidget {
           PageTransition(child: GoogleSignIn(), type: PageTransitionType.rightToLeftWithFade)),
       pages: [
         WhatsNewPage(
-          title: const Text("Welcome To Saheli").animate().fade(duration: 500.milliseconds).shimmer(duration: 2.seconds),
+          title: const Text("Welcome To Saarthi").animate().fade(duration: 500.milliseconds).shimmer(duration: 2.seconds),
           features: [
             WhatsNewFeature(
               icon: Icon(

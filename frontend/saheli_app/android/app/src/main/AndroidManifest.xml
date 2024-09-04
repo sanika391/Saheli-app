@@ -22,12 +22,12 @@
 
 
     <application
-        android:label="Saheli"
+        android:label="Saarthi"
         android:name="${applicationName}"
         android:requestLegacyExternalStorage="true"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="@string/MAPS_API_KEY"/>
+            android:value="AIzaSyCc7h8tAsoo1_GEkKItT65DMyQb-4ks-Fg"/>
         <activity
             android:name=".MainActivity"
 

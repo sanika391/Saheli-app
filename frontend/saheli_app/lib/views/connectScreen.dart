@@ -294,7 +294,7 @@ class _BluetoothDeviceListWidgetState extends State<BluetoothScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Connect smart device to Saheli',
+                          'Connect smart device to Saarthi',
                           style: GoogleFonts.outfit(
                             fontWeight: FontWeight.w500,
                             color: Colors.white,
