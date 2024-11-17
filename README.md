@@ -1,11 +1,10 @@
 # Saheli - Your Ultimate Safety Companion
 
-Awards : [People Choice Award](https://blog.google/technology/developers/meet-the-students-that-are-changing-the-world-through-technology) and [Top 10 Winner](https://developers.googleblog.com/en/5-years-of-innovation-student-developers-solving-real-world-problems-using-google-tech/) of [Google Solution Challenge 2024](https://developers.google.com/community/gdsc-solution-challenge/winners). Checkout link to read blogs on Google Developers Blog page.
 
 Saheli, meaning 'female best friend' in Hindi, is an innovative mobile application designed to ensure the safety and security of women, empowering them to navigate through various situations confidently. Developed as a part of the Google Solution Challenge hackathon 2024, Saheli app is built using Flutter and integrating cutting-edge technologies and thoughtful features to address the pressing issue of women's safety.
 
-#### YouTube Video Demo Link (1 min) : https://youtu.be/GjfN3swoP4Q
-#### YouTube Video Demo Link (2 min) : https://www.youtube.com/watch?v=al7dooPSCwM
+#### YouTube Video Demo Link (1 min) : https://youtu.be/gseFQm0ZZas
+#### YouTube Video Demo Link (2 min) : https://youtube.com/shorts/2cX50EaTJrM
 #### Website Link : [saheli.dev](https://www.saheli.dev/)
 
 ## Features:
@@ -195,17 +194,6 @@ Run the main.dart file using the flutter run command:<br>
 * **Reduces violence and crime:** By empowering women and promoting safer communities, Saheli contributes to a decrease in violence and crime overall.
 * **Strengthens institutions:** Increased trust and collaboration between community members and law enforcement agencies can be fostered through Saheli's features.
 * **Promotes justice:** By providing women with tools and resources to report abuse and seek help, Saheli contributes to a more just society.
-
-## How to Contribute:
-
-Contributions to Saheli are welcome! If you have ideas for new features, improvements, or bug fixes, please feel free to submit a pull request.
-
-## About Team
- - [Apoorv Yash](https://www.linkedin.com/in/apoorv-yash-75b130230/)
- - [Priyanshu Agrawal](https://www.linkedin.com/in/priyanshu-agrawal-5a00651b1/)
- - [Yuvraj Singh](https://www.linkedin.com/in/yuvraj-singh-5198441aa/)
- - [Agrim Saxena](https://www.linkedin.com/in/agrim-saxena-29529b223/)
-
 
 ## License:
 
